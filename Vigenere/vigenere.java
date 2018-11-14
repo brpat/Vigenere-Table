@@ -81,7 +81,7 @@ public class vigenere
 		scanner.close();
 		return size;
 	}
-	// check to see if character is a Letter or not
+	// check for alphabetic characters only 
 	private static boolean isLetter(char c) {
 		
 		if(c < 65 || c > 122)
